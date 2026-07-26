@@ -1,0 +1,119 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#ACDFDD;
+    color:#333;
+    margin:0;
+    text-align:center;
+}
+
+/* Heading */
+h1{
+    color:#005f73;
+}
+
+h2{
+    color:#0077b6;
+}
+
+/* Navigation */
+nav{
+    margin:20px auto;
+    width:80%;
+    border:2px solid #0077b6;
+    padding:15px;
+    border-radius:10px;
+    background:#dff6ff;
+}
+
+nav table{
+    margin:0 auto;
+}
+
+nav td{
+    padding:10px;
+}
+
+/* Links */
+a{
+    text-decoration:none;
+    color:#005f73;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#023047;
+}
+
+/* Sections */
+section{
+    width:80%;
+    margin:30px auto;
+    border:2px solid #0077b6;
+    padding:20px;
+    border-radius:10px;
+    background:#dff6ff;
+    clear:both;
+}
+
+/* Tables */
+table{
+    border-collapse:collapse;
+    margin:0 auto;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+/* Images */
+img{
+    border-radius:10px;
+    margin:10px;
+}
+
+/* Video */
+video{
+    border-radius:10px;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="reset"]{
+
+    background:#0096c7;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    margin:8px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background:#005f73;
+}
+
+/* Input Fields */
+input,
+select,
+textarea{
+
+    padding:8px;
+    border-radius:5px;
+    border:1px solid #0077b6;
+}
+
+/* Footer */
+footer{
+
+    background:#48cae4;
+    color:white;
+    padding:12px;
+    margin-top:30px;
+    border-top:2px solid #0077b6;
+}
